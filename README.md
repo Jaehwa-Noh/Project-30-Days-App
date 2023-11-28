@@ -26,6 +26,38 @@ This app will show you a page of my book, which is called '[Diamond is Diamond, 
 이 앱은 제 책 '[다이아몬드는 개똥밭에 굴러도 다이아몬드이다](https://search.shopping.naver.com/book/catalog/32493245481?query=%EB%85%B8%EC%9E%AC%ED%99%94&NaPm=ct%3Dlpi49rtc%7Cci%3Df318959b0f7d8c72117f71fdc3a40572c4337e7d%7Ctr%3Dboksl%7Csn%3D95694%7Chk%3Dd1eccee2310254b912b3a0fbc8d670414e889a1a)'를 한 장씩 하루하루 보여주는 앱입니다.
 
 
+## Figma Low-Fidelity prototype (피그마 대략적인 설계)
+<img src="https://github.com/Jaehwa-Noh/Project-30-Days-App/assets/48680511/3b37cd52-f990-45d5-8ee5-8eb270069670" width="300" />
+
+## UI specifications (UI 명세서)
+### Book Content List (책 내용 목록)
+<img width="300" alt="Book Content List" src="https://github.com/Jaehwa-Noh/Project-30-Days-App/assets/48680511/39e48892-8488-42dd-8efb-ec5abb1c2032">
+
+### Book Content List Item (책 내용 목록 내용)
+• Card radius is 16dp (카드의 반지름은 16dp)   
+• Card elevation is 2dp (카드의 높이감은 2dp)   
+
+<img width="400" alt="Book content list item 1" src="https://github.com/Jaehwa-Noh/Project-30-Days-App/assets/48680511/b93cc737-5282-4868-a268-85f308f401aa">
+<br></br>
+<img width="400" alt="Book Cotent List Item 2" src="https://github.com/Jaehwa-Noh/Project-30-Days-App/assets/48680511/12beabaf-2afe-4545-83a9-54dc90e6f55b">
+<br></br>
+<img width="400" alt="Book content list item 3" src="https://github.com/Jaehwa-Noh/Project-30-Days-App/assets/48680511/86c74138-4794-4633-b1d8-931a2b834485">
+<br></br>
+• Display Small: East Sea Dokdo Font (디스플레이 스몰: East Sea Dokdo 글꼴)   
+
+• Body Medium: NanumGothic Font (본문 중간: NanumGothic 글꼴)   
+   
+<img width="400" alt="Book content list item 4" src="https://github.com/Jaehwa-Noh/Project-30-Days-App/assets/48680511/b4cbd842-ff8b-442d-a0db-8b016e791e01">
+
+
+### Top App bar (상단 앱 바)
+• Headline style (헤드라인 스타일)   
+• East Sea Dokdo Font (East Sea Dokdo 글꼴)   
+
+<img width="400" alt="Top app bar" src="https://github.com/Jaehwa-Noh/Project-30-Days-App/assets/48680511/f4f1efc9-3865-4a57-959e-10d715a041b3">
+
+
+
 
 ## Resource (재료)
 ### Image (이미지)
