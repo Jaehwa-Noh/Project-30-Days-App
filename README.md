@@ -67,8 +67,8 @@ All images were downloaded from [Unsplash](https://unsplash.com/) (모든 이미
 Content came form my [Book](https://bookk.co.kr/users/6469645b69d8ae916e9eb852/books) (내용은 제 [책](https://bookk.co.kr/users/6469645b69d8ae916e9eb852/books)에서 가져왔습니다.)   
 
 ### Font (글꼴)
-[Nanum Gothic (나눔 고딕)](https://fonts.google.com/specimen/Nanum+Gothic)
-[East Sea Dokdo (동해 독도)](https://fonts.google.com/specimen/East+Sea+Dokdo)
+• [Nanum Gothic (나눔 고딕)](https://fonts.google.com/specimen/Nanum+Gothic)   
+• [East Sea Dokdo (동해 독도)](https://fonts.google.com/specimen/East+Sea+Dokdo)
 
 
 # My Result (내 결과물)
