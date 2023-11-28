@@ -45,7 +45,7 @@ This app will show you a page of my book, which is called '[Diamond is Diamond, 
 <br></br>
 • Display Small: East Sea Dokdo Font (디스플레이 스몰: East Sea Dokdo 글꼴)   
 
-• Body Medium: NanumGothic Font (본문 중간: NanumGothic 글꼴)   
+• Body Medium: Nanum Gothic Font (본문 중간: Nanum Gothic 글꼴)   
    
 <img width="400" alt="Book content list item 4" src="https://github.com/Jaehwa-Noh/Project-30-Days-App/assets/48680511/b4cbd842-ff8b-442d-a0db-8b016e791e01">
 
@@ -59,12 +59,16 @@ This app will show you a page of my book, which is called '[Diamond is Diamond, 
 
 
 
-## Resource (재료)
+## Resources (재료)
 ### Image (이미지)
 All images were downloaded from [Unsplash](https://unsplash.com/) (모든 이미지는 [Unsplash](https://unsplash.com/)에서 내려받았습니다.)   
 
 ### Content (내용)
 Content came form my [Book](https://bookk.co.kr/users/6469645b69d8ae916e9eb852/books) (내용은 제 [책](https://bookk.co.kr/users/6469645b69d8ae916e9eb852/books)에서 가져왔습니다.)   
+
+### Font (글꼴)
+[Nanum Gothic (나눔 고딕)](https://fonts.google.com/specimen/Nanum+Gothic)
+[East Sea Dokdo (동해 독도)](https://fonts.google.com/specimen/East+Sea+Dokdo)
 
 
 # My Result (내 결과물)
