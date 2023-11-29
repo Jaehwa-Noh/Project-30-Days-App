@@ -37,7 +37,7 @@ This app will show you a page of my book, which is called '[Diamond is Diamond, 
 • Card radius is 16dp (카드의 반지름은 16dp)   
 • Card elevation is 2dp (카드의 높이감은 2dp)   
 
-<img width="400" alt="Book content list item 1" src="https://github.com/Jaehwa-Noh/Project-30-Days-App/assets/48680511/b93cc737-5282-4868-a268-85f308f401aa">
+<img width="400" alt="Book content list item 1" src="https://github.com/Jaehwa-Noh/Project-30-Days-App/assets/48680511/781ad93b-fb86-4767-9dad-9da1751910db">
 <br></br>
 <img width="400" alt="Book Cotent List Item 2" src="https://github.com/Jaehwa-Noh/Project-30-Days-App/assets/48680511/12beabaf-2afe-4545-83a9-54dc90e6f55b">
 <br></br>
