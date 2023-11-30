@@ -32,7 +32,8 @@ fun BookContentListItem(
 ) {
     Card(
         modifier = modifier,
-        elevation = CardDefaults.cardElevation(2.dp)
+        elevation = CardDefaults.cardElevation(2.dp),
+        shape = MaterialTheme.shapes.medium
     ) {
         Column(modifier = Modifier) {
             Image(
