@@ -76,4 +76,6 @@ Content came form my [Book](https://bookk.co.kr/users/6469645b69d8ae916e9eb852/b
 ## Apps on device (프로젝트 실행 이미지)
 | Compose(light) | Compose(dark) | SwiftUI(light) |  SwiftUI(dark) |
 | :---------------: | :---------------: | :---------------: | :---------------: |
+| <img width="300" alt="Compose 30 days app(light)" src="https://github.com/Jaehwa-Noh/Project-30-Days-App/assets/48680511/72d74722-87d6-4f9b-ae2f-239ae8f05fa1"> | <img width="300" alt="Compose 30 days app(dark)" src="https://github.com/Jaehwa-Noh/Project-30-Days-App/assets/48680511/a1d1463d-f603-4585-a2cc-4c2403dcc5a4"> |
+
 
