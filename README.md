@@ -37,21 +37,22 @@ This app will show you a page of my book, which is called '[Diamond is Diamond, 
 • Card radius is 16dp (카드의 반지름은 16dp)   
 • Card elevation is 2dp (카드의 높이감은 2dp)   
 
-<img width="400" alt="Book content list item 1" src="https://github.com/Jaehwa-Noh/Project-30-Days-App/assets/48680511/b93cc737-5282-4868-a268-85f308f401aa">
+<img width="400" alt="Book content list item 1" src="https://github.com/Jaehwa-Noh/Project-30-Days-App/assets/48680511/781ad93b-fb86-4767-9dad-9da1751910db">
 <br></br>
 <img width="400" alt="Book Cotent List Item 2" src="https://github.com/Jaehwa-Noh/Project-30-Days-App/assets/48680511/12beabaf-2afe-4545-83a9-54dc90e6f55b">
 <br></br>
 <img width="400" alt="Book content list item 3" src="https://github.com/Jaehwa-Noh/Project-30-Days-App/assets/48680511/86c74138-4794-4633-b1d8-931a2b834485">
 <br></br>
-• Display Small: East Sea Dokdo Font (디스플레이 스몰: East Sea Dokdo 글꼴)   
 
-• Body Medium: Nanum Gothic Font (본문 중간: Nanum Gothic 글꼴)   
+• Display Small: East Sea Dokdo Font, ```36sp``` (디스플레이 작은: East Sea Dokdo 글꼴, ```36sp``` )   
+
+• Body Medium: Nanum Gothic Font, ```14sp``` (본문 중간: Nanum Gothic 글꼴, ```14sp``` )   
    
 <img width="400" alt="Book content list item 4" src="https://github.com/Jaehwa-Noh/Project-30-Days-App/assets/48680511/b4cbd842-ff8b-442d-a0db-8b016e791e01">
 
 
 ### Top App bar (상단 앱 바)
-• Headline style (헤드라인 스타일)   
+• Headline Large style ```32sp``` (헤드라인 큰 스타일 ```32sp``` )   
 • East Sea Dokdo Font (East Sea Dokdo 글꼴)   
 
 <img width="400" alt="Top app bar" src="https://github.com/Jaehwa-Noh/Project-30-Days-App/assets/48680511/f4f1efc9-3865-4a57-959e-10d715a041b3">
