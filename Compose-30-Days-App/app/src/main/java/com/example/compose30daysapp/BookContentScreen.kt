@@ -9,7 +9,10 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.CenterAlignedTopAppBar
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -22,13 +25,28 @@ import com.example.compose30daysapp.data.BookContent
 import com.example.compose30daysapp.model.BookContentsRepository
 import com.example.compose30daysapp.ui.theme.Compose30DaysAppTheme
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun BookContentList(modifier: Modifier = Modifier) {
     val bookContents = BookContentsRepository.bookContents
-
-    LazyColumn(modifier = modifier) {
-        items(bookContents) { bookContent ->
-            BookContentListItem(bookContent = bookContent)
+    Scaffold(
+        topBar = {
+            CenterAlignedTopAppBar(title = {
+                Text(
+                    text = stringResource(R.string.app_bar_title),
+                    style = MaterialTheme.typography.headlineLarge
+                )
+            })
+        },
+        modifier = modifier
+    ) {
+        LazyColumn(
+            modifier = Modifier,
+            contentPadding = it
+        ) {
+            items(bookContents) { bookContent ->
+                BookContentListItem(bookContent = bookContent)
+            }
         }
     }
 }
