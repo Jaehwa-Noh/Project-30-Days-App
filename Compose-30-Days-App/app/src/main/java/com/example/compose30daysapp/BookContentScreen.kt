@@ -3,6 +3,7 @@ package com.example.compose30daysapp
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -70,6 +71,7 @@ fun BookContentListItem(
                 contentDescription = null,
                 modifier = Modifier
                     .height(200.dp)
+                    .fillMaxWidth()
             )
             BookContentListItemTextArea(bookContent = bookContent)
         }
@@ -135,6 +137,6 @@ fun BookContentListItemPreview() {
     val bookContents = BookContentsRepository.bookContents
 
     Compose30DaysAppTheme {
-        BookContentListItem(bookContent = bookContents[23])
+        BookContentListItem(bookContent = bookContents[28])
     }
 }
