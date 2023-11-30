@@ -39,7 +39,9 @@ fun BookContentListItem(
     bookContent: BookContent
 ) {
     Card(
-        modifier = modifier,
+        modifier = modifier
+            .padding(vertical = 8.dp)
+            .padding(horizontal = 16.dp),
         elevation = CardDefaults.cardElevation(2.dp),
         shape = MaterialTheme.shapes.medium
     ) {
