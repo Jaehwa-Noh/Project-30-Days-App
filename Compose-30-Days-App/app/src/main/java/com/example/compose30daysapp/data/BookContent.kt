@@ -4,6 +4,7 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 
 data class BookContent(
+    val day: String,
     @StringRes val titleStringId: Int,
     @StringRes val contentStringId: Int,
     @StringRes val sourceStringId: Int,
