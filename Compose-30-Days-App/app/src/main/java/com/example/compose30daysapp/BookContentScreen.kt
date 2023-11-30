@@ -1,5 +1,7 @@
 package com.example.compose30daysapp
 
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.MutableTransitionState
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -16,6 +18,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
@@ -30,6 +33,13 @@ import com.example.compose30daysapp.ui.theme.Compose30DaysAppTheme
 @Composable
 fun BookContentList(modifier: Modifier = Modifier) {
     val bookContents = BookContentsRepository.bookContents
+
+    val state = remember {
+        MutableTransitionState(false).apply {
+            targetState = true
+        }
+    }
+
     Scaffold(
         topBar = {
             CenterAlignedTopAppBar(title = {
@@ -46,7 +56,9 @@ fun BookContentList(modifier: Modifier = Modifier) {
             contentPadding = it
         ) {
             items(bookContents) { bookContent ->
-                BookContentListItem(bookContent = bookContent)
+                AnimatedVisibility(visibleState = state) {
+                    BookContentListItem(bookContent = bookContent)
+                }
             }
         }
     }
