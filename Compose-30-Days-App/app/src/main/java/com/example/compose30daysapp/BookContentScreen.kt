@@ -5,6 +5,8 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
@@ -22,7 +24,13 @@ import com.example.compose30daysapp.ui.theme.Compose30DaysAppTheme
 
 @Composable
 fun BookContentList(modifier: Modifier = Modifier) {
+    val bookContents = BookContentsRepository.bookContents
 
+    LazyColumn(modifier = modifier) {
+        items(bookContents) { bookContent ->
+            BookContentListItem(bookContent = bookContent)
+        }
+    }
 }
 
 @Composable
@@ -86,10 +94,27 @@ fun BookContentListItemTextArea(
 
 @Preview
 @Composable
+fun BookContentListPreview() {
+    Compose30DaysAppTheme {
+        BookContentList()
+    }
+}
+
+@Preview
+@Composable
+fun BookContentListPreviewDark() {
+    Compose30DaysAppTheme(darkTheme = true) {
+        BookContentList()
+    }
+}
+
+
+@Preview
+@Composable
 fun BookContentListItemPreview() {
     val bookContents = BookContentsRepository.bookContents
 
     Compose30DaysAppTheme {
-        BookContentListItem(bookContent = bookContents[0])
+        BookContentListItem(bookContent = bookContents[23])
     }
 }
