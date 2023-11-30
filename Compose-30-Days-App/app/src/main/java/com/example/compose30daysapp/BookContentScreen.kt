@@ -1,8 +1,10 @@
 package com.example.compose30daysapp
 
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.MutableTransitionState
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -18,7 +20,10 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
@@ -69,10 +74,17 @@ fun BookContentListItem(
     modifier: Modifier = Modifier,
     bookContent: BookContent
 ) {
+
+    var expanded by remember {
+        mutableStateOf(false)
+    }
+
     Card(
         modifier = modifier
+            .animateContentSize()
             .padding(vertical = 8.dp)
-            .padding(horizontal = 16.dp),
+            .padding(horizontal = 16.dp)
+            .clickable { expanded = !expanded },
         elevation = CardDefaults.cardElevation(2.dp),
         shape = MaterialTheme.shapes.medium
     ) {
@@ -85,7 +97,7 @@ fun BookContentListItem(
                     .height(200.dp)
                     .fillMaxWidth()
             )
-            BookContentListItemTextArea(bookContent = bookContent)
+            BookContentListItemTextArea(bookContent = bookContent, expanded = expanded)
         }
     }
 }
@@ -93,7 +105,8 @@ fun BookContentListItem(
 @Composable
 fun BookContentListItemTextArea(
     modifier: Modifier = Modifier,
-    bookContent: BookContent
+    bookContent: BookContent,
+    expanded: Boolean
 ) {
     Column(
         modifier = modifier
@@ -111,18 +124,20 @@ fun BookContentListItemTextArea(
             text = stringResource(id = bookContent.titleStringId),
             style = MaterialTheme.typography.displaySmall
         )
-        Spacer(
-            modifier = Modifier
-                .height(24.dp)
-        )
-        Text(
-            text = stringResource(id = bookContent.contentStringId),
-            style = MaterialTheme.typography.bodyMedium
-        )
-        Text(
-            text = stringResource(id = bookContent.sourceStringId),
-            style = MaterialTheme.typography.bodyMedium
-        )
+        if (expanded) {
+            Spacer(
+                modifier = Modifier
+                    .height(24.dp)
+            )
+            Text(
+                text = stringResource(id = bookContent.contentStringId),
+                style = MaterialTheme.typography.bodyMedium
+            )
+            Text(
+                text = stringResource(id = bookContent.sourceStringId),
+                style = MaterialTheme.typography.bodyMedium
+            )
+        }
     }
 }
 
