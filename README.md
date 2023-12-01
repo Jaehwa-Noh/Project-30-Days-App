@@ -6,7 +6,7 @@ This main branch is the main directory.
 
 there are 2 additional branchs for 1 practice, Compose and SwiftUI.   
    
-• [Compose branch]   
+• [Compose branch](https://github.com/Jaehwa-Noh/Project-30-Days-App/tree/Compose-30-Days-App)   
 • [SwiftUI branch]
 
 
@@ -19,7 +19,7 @@ This app will show you a page of my book, which is called '[Diamond is Diamond, 
 
 1개의 연습에 해당하는 추가적인 Compose와 SwiftUI에 해당하는 2개의 브랜치가 있습니다.   
    
-• [컴포우즈 브랜치]   
+• [컴포우즈 브랜치](https://github.com/Jaehwa-Noh/Project-30-Days-App/tree/Compose-30-Days-App)   
 • [스위프트유아이 브랜치]   
 
 
