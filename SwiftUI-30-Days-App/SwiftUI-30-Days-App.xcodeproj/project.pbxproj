@@ -12,6 +12,7 @@
 		CF006E902B19C533006EEC66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF006E8F2B19C533006EEC66 /* Assets.xcassets */; };
 		CF006E932B19C533006EEC66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF006E922B19C533006EEC66 /* Preview Assets.xcassets */; };
 		CF006E9C2B19CFC3006EEC66 /* BookContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF006E9B2B19CFC3006EEC66 /* BookContent.swift */; };
+		CF006E9E2B19D007006EEC66 /* BookContentsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF006E9D2B19D007006EEC66 /* BookContentsRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		CF006E8F2B19C533006EEC66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF006E922B19C533006EEC66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF006E9B2B19CFC3006EEC66 /* BookContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookContent.swift; sourceTree = "<group>"; };
+		CF006E9D2B19D007006EEC66 /* BookContentsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookContentsRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		CF006E992B19C540006EEC66 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CF006E9D2B19D007006EEC66 /* BookContentsRepository.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF006E9E2B19D007006EEC66 /* BookContentsRepository.swift in Sources */,
 				CF006E8E2B19C532006EEC66 /* ContentView.swift in Sources */,
 				CF006E9C2B19CFC3006EEC66 /* BookContent.swift in Sources */,
 				CF006E8C2B19C532006EEC66 /* SwiftUI_30_Days_AppApp.swift in Sources */,
