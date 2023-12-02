@@ -31,15 +31,27 @@ struct BookContentListItem: View {
 struct BookContentTextSection: View {
     let bookContent: BookContent
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: .leading, spacing: 0) {
             Text(bookContent.day)
+                .font(
+                    Font.custom("NanumGothic-Regular", size: 14, relativeTo: .footnote)
+                )
             Spacer()
                 .frame(height: 4)
             Text(bookContent.titleString)
+                .font(
+                    Font.custom("EastSeaDokdo-Regular", size: 36, relativeTo: .largeTitle)
+                )
             Spacer()
                 .frame(height: 24)
             Text(bookContent.contentString)
+                .font(
+                    Font.custom("NanumGothic-Regular", size: 14, relativeTo: .footnote)
+                )
             Text(bookContent.sourceString)
+                .font(
+                    Font.custom("NanumGothic-Regular", size: 14, relativeTo: .footnote)
+                )
         }
         .padding(16)
     }
