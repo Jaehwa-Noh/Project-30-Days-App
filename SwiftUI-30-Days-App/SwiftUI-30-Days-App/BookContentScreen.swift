@@ -22,7 +22,7 @@ struct BookContentListItem: View {
             Color.gray
         )
         .clipShape(
-            RoundedRectangle(cornerRadius: 16.0)
+            RoundedRectangle(cornerRadius: 12.0)
         )
         
     }
