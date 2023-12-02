@@ -14,6 +14,8 @@
 		CF006E9C2B19CFC3006EEC66 /* BookContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF006E9B2B19CFC3006EEC66 /* BookContent.swift */; };
 		CF006E9E2B19D007006EEC66 /* BookContentsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF006E9D2B19D007006EEC66 /* BookContentsRepository.swift */; };
 		CFD5706C2B1B470B00534B8A /* BookContentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD5706B2B1B470B00534B8A /* BookContentScreen.swift */; };
+		CFD5706F2B1B505900534B8A /* EastSeaDokdo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFD5706E2B1B505900534B8A /* EastSeaDokdo-Regular.ttf */; };
+		CFD570712B1B506700534B8A /* NanumGothic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFD570702B1B506700534B8A /* NanumGothic-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,9 @@
 		CF006E9B2B19CFC3006EEC66 /* BookContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookContent.swift; sourceTree = "<group>"; };
 		CF006E9D2B19D007006EEC66 /* BookContentsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookContentsRepository.swift; sourceTree = "<group>"; };
 		CFD5706B2B1B470B00534B8A /* BookContentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookContentScreen.swift; sourceTree = "<group>"; };
+		CFD5706E2B1B505900534B8A /* EastSeaDokdo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EastSeaDokdo-Regular.ttf"; sourceTree = "<group>"; };
+		CFD570702B1B506700534B8A /* NanumGothic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NanumGothic-Regular.ttf"; sourceTree = "<group>"; };
+		CFD570722B1B508A00534B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,8 @@
 		CF006E8A2B19C532006EEC66 /* SwiftUI-30-Days-App */ = {
 			isa = PBXGroup;
 			children = (
+				CFD570722B1B508A00534B8A /* Info.plist */,
+				CFD5706D2B1B4E3100534B8A /* Fonts */,
 				CF006E9A2B19C544006EEC66 /* Data */,
 				CF006E992B19C540006EEC66 /* Model */,
 				CF006E8B2B19C532006EEC66 /* SwiftUI_30_Days_AppApp.swift */,
@@ -90,6 +97,15 @@
 				CF006E9B2B19CFC3006EEC66 /* BookContent.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		CFD5706D2B1B4E3100534B8A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CFD5706E2B1B505900534B8A /* EastSeaDokdo-Regular.ttf */,
+				CFD570702B1B506700534B8A /* NanumGothic-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF006E932B19C533006EEC66 /* Preview Assets.xcassets in Resources */,
+				CFD5706F2B1B505900534B8A /* EastSeaDokdo-Regular.ttf in Resources */,
 				CF006E902B19C533006EEC66 /* Assets.xcassets in Resources */,
+				CFD570712B1B506700534B8A /* NanumGothic-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +321,7 @@
 				DEVELOPMENT_TEAM = 6H64278R9T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-30-Days-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -332,6 +351,7 @@
 				DEVELOPMENT_TEAM = 6H64278R9T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-30-Days-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
