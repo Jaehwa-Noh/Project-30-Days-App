@@ -18,6 +18,7 @@ struct ContentView: View {
             BookContentList()
                 .navigationTitle("다이아몬드는 개똥밭에 굴러도 다이아몬드이다")
                 .navigationBarTitleDisplayMode(.large)
+                .background(Color(Colors.backgroundColor.rawValue))
         }
         
     }
