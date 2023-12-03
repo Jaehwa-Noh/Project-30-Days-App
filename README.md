@@ -84,7 +84,7 @@ Content came form my [Book](https://bookk.co.kr/users/6469645b69d8ae916e9eb852/b
 [java.lang.RuntimeException: Canvas: trying to draw too large(240869376bytes) bitmap.](https://shwoghk14.blogspot.com/2023/11/android-compose-canvas-error.html)
 
 ### SwiftUI (스위프트유아이)
-#### onTapGesture works at the wrong position.
+#### onTapGesture works at the wrong position (onTapGesture 잘못된 위치에서 작동)
 [onTapGesture works at the wrong position](https://shwoghk14.blogspot.com/2023/12/ios-swiftui-ontapgesture-works-at-wrong.html)
 
 
