@@ -38,6 +38,7 @@ struct BookContentListItem: View {
         .clipShape(
             RoundedRectangle(cornerRadius: 12.0)
         )
+        .shadow(radius: 2)
         .padding(.horizontal, 16)
         .padding(.vertical, 8)
         
