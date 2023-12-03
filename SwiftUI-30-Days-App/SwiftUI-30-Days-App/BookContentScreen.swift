@@ -33,13 +33,14 @@ struct BookContentListItem: View {
             BookContentTextSection(bookContent: bookContent)
         }
         .background(
-            Color.gray
+            Color(Colors.cardBackgroundColor.rawValue)
         )
         .clipShape(
             RoundedRectangle(cornerRadius: 12.0)
         )
         .padding(.horizontal, 16)
         .padding(.vertical, 8)
+        
     }
 }
 
