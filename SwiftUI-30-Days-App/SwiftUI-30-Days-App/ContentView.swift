@@ -8,14 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    init() {
+        UINavigationBar.appearance().largeTitleTextAttributes = [.font : UIFont(name: "EastSeaDokdo-Regular", size: 32) ?? UIFont()]
+        UINavigationBar.appearance().titleTextAttributes = [.font : UIFont(name: "EastSeaDokdo-Regular", size: 24) ?? UIFont()]
+    }
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            BookContentList()
+                .navigationTitle("다이아몬드는 개똥밭에 굴러도 다이아몬드이다")
+                .navigationBarTitleDisplayMode(.large)
         }
-        .padding()
+        
     }
 }
 
