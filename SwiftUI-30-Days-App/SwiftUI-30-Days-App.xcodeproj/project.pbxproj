@@ -93,7 +93,7 @@
 		CF006E992B19C540006EEC66 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CF006E9D2B19D007006EEC66 /* BookContentsRepository.swift */,
+				CF006E9B2B19CFC3006EEC66 /* BookContent.swift */,
 				CFC4A51F2B1C4B330092E2D9 /* BookContentWithExpanded.swift */,
 			);
 			path = Model;
@@ -102,7 +102,7 @@
 		CF006E9A2B19C544006EEC66 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				CF006E9B2B19CFC3006EEC66 /* BookContent.swift */,
+				CF006E9D2B19D007006EEC66 /* BookContentsRepository.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
