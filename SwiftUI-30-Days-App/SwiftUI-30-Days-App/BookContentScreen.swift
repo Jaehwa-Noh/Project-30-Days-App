@@ -7,6 +7,20 @@
 
 import SwiftUI
 
+struct BookContentList: View {
+    let bookContents = BookContentsRepository().bookContents
+    
+    var body: some View {
+        ScrollView {
+            LazyVStack(spacing: 0) {
+                ForEach(bookContents) { bookContent in
+                    BookContentListItem(bookContent: bookContent)
+                }
+            }
+        }
+    }
+}
+
 struct BookContentListItem: View {
     let bookContent: BookContent
     var body: some View {
@@ -24,7 +38,8 @@ struct BookContentListItem: View {
         .clipShape(
             RoundedRectangle(cornerRadius: 12.0)
         )
-        
+        .padding(.horizontal, 16)
+        .padding(.vertical, 8)
     }
 }
 
@@ -55,6 +70,10 @@ struct BookContentTextSection: View {
         }
         .padding(16)
     }
+}
+
+#Preview {
+    BookContentList()
 }
 
 #Preview {
