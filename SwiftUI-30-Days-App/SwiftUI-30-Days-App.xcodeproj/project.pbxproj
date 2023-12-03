@@ -69,7 +69,7 @@
 				CF006E8B2B19C532006EEC66 /* SwiftUI_30_Days_AppApp.swift */,
 				CF006E8D2B19C532006EEC66 /* ContentView.swift */,
 				CFD5706B2B1B470B00534B8A /* BookContentScreen.swift */,
-				CF006E8F2B19C533006EEC66 /* Assets.xcassets */,
+				CFC4A5172B1C17C20092E2D9 /* Assets */,
 				CF006E912B19C533006EEC66 /* Preview Content */,
 			);
 			path = "SwiftUI-30-Days-App";
@@ -97,6 +97,14 @@
 				CF006E9B2B19CFC3006EEC66 /* BookContent.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		CFC4A5172B1C17C20092E2D9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CF006E8F2B19C533006EEC66 /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		CFD5706D2B1B4E3100534B8A /* Fonts */ = {
